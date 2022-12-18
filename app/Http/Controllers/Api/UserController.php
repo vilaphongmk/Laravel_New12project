@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function GetNews()
+    public function getUsers()
     {
         try {
             $user = tbl_users::all();
