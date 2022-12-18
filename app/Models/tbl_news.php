@@ -9,8 +9,7 @@ class tbl_news extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'tittle',
+        'title',
         'content',
-
     ];
 }
